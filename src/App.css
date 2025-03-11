@@ -2,3 +2,7 @@
   background-color: white;
   margin: auto;
 }
+
+.product-container {
+  display: flex;
+}
