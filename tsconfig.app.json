@@ -10,6 +10,14 @@
     "paths": {
       "@components": ["components/*"]
     },
+    "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
 
     /* Bundler mode */
     "moduleResolution": "bundler",
