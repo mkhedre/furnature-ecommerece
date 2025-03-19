@@ -1,12 +1,10 @@
-import TopNav from "./components/TopNav";
-import Header from "./components/Header";
-import "./App.css";
+import './App.css';
+import BaseLayout from './layouts/BaseLayout';
 
 function App() {
   return (
     <>
-      <TopNav />
-      <Header />
+      <BaseLayout>new</BaseLayout>
     </>
   );
 }

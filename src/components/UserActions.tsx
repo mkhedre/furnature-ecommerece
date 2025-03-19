@@ -1,8 +1,8 @@
-import { BarChart2, Heart, ShoppingCart } from "lucide-react";
+import { BarChart2, Heart, ShoppingCart } from 'lucide-react';
 
 const UserActions = () => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4 text-white">
       <span>Login/register</span>
       <span>
         <Heart />
